@@ -1,0 +1,10 @@
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.dll
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.pdb
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.Repository.csprojResolveAssemblyReference.cache
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.dll
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.pdb
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.dll
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.pdb
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.dll
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.pdb

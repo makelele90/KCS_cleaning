@@ -1,0 +1,10 @@
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.dll
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.pdb
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.csprojResolveAssemblyReference.cache
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.dll
+C:\personalProjects\KCS_cleaning\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.pdb
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.dll
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.pdb
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.csprojResolveAssemblyReference.cache
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.dll
+C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.pdb
