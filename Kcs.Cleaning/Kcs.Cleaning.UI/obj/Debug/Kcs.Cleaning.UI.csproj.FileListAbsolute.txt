@@ -51,6 +51,5 @@ C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\bin\System.Web.Razor.xml
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\bin\System.Web.WebPages.xml
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\bin\System.Web.WebPages.Razor.xml
-C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\obj\Debug\Kcs.Cleaning.UI.csprojResolveAssemblyReference.cache
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\obj\Debug\Kcs.Cleaning.UI.dll
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.UI\obj\Debug\Kcs.Cleaning.UI.pdb
