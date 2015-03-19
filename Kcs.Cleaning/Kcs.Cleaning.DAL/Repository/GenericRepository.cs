@@ -1,45 +1,111 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
+using Kcs.Cleaning.Datacontainer.DTO;
 
 namespace Kcs.Cleaning.DAL.Repository
 {
-    public abstract class GenericRepository<T, TDbContext> : BaseRepository<TDbContext>, IRepository<T>
-        where TDbContext : DbContext, new()
+    public class GenericRepository<T, TDbContext> : IRepository<T>
         where T : class
+        where TDbContext : DbContext, new()
     {
+        private DbContext _unitOfWork;
+        protected DbContext UnitOfWork
+        {
+            get
+            {
+                if (_unitOfWork == null) _unitOfWork = new TDbContext();
 
-        public T[] FindAll()
-        {
-            return Context.Set<T>().ToArray();
+                return _unitOfWork;
+            }
         }
-        public virtual T Single(Expression<Func<T, bool>> predicate)
+        public void SaveChanges()
         {
-            return Context.Set<T>().Where(predicate).FirstOrDefault();
+            UnitOfWork.SaveChanges();
         }
-        public T[] Find(Expression<Func<T, bool>> predicate)
+        public T Single(Expression<Func<T, bool>> predicate)
         {
-            return Context.Set<T>().Where(predicate).ToArray();
+            return UnitOfWork.Set<T>().SingleOrDefault(predicate);
         }
-
-        public void Add(T entity)
+        public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
         {
-            Context.Set<T>().Add(entity);
-            SaveChanges();
-
-        }
-
-        public void Update(T entity)
-        {
-            Context.Entry(entity).State = EntityState.Modified;
-            SaveChanges();
+            return UnitOfWork.Set<T>().Where(predicate);
         }
 
-        public void Delete(T entity)
+        public IEnumerable<T> FindAll()
         {
-            Context.Set<T>().Remove(entity);
-            SaveChanges();
+            return UnitOfWork.Set<T>().Select(e => e);
+        }
+
+        public OperationStatus Create(T item)
+        {
+            OperationStatus status;
+
+            try
+            {
+                UnitOfWork.Set<T>().Add(item);
+
+                SaveChanges();
+
+                status = new OperationStatus()
+                {
+                    Status = true,
+                    Message = "sucessfully created user"
+                };
+            }
+            catch (Exception ex)
+            {
+                status = OperationStatus.CreateFromExeption(ex, "could not create user");
+            }
+
+            return status;
+        }
+        public OperationStatus Update(T entity)
+        {
+
+            OperationStatus status;
+            try
+            {
+                UnitOfWork.Entry(entity).State = EntityState.Modified;
+
+                SaveChanges();
+
+                status = new OperationStatus()
+                {
+                    Status = true,
+                    Message = "sucessfully update user"
+                };
+            }
+            catch (Exception ex)
+            {
+                status = OperationStatus.CreateFromExeption(ex, "could not update user details");
+            }
+
+            return status;
+        }
+        public OperationStatus Delete(T entity)
+        {
+            OperationStatus status;
+            try
+            {
+                UnitOfWork.Set<T>().Remove(entity);
+
+                SaveChanges();
+
+                status = new OperationStatus()
+                {
+                    Status = true,
+                    Message = "sucessfully deleted user"
+                };
+            }
+            catch (Exception ex)
+            {
+                status = OperationStatus.CreateFromExeption(ex, "could not delete user");
+            }
+
+            return status;
         }
     }
 }

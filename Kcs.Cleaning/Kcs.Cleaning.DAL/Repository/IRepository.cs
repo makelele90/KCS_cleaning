@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq.Expressions;
+using Kcs.Cleaning.Datacontainer.DTO;
 
 namespace Kcs.Cleaning.DAL.Repository
 {
     public interface IRepository<T>
     {
-        T[] FindAll();
         T Single(Expression<Func<T, bool>> predicate);
-        T[] Find(Expression<Func<T, bool>> predicate);
-        void Add(T entity);
-        void Update(T entity);
-        void Delete(T entity);
+        IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
+        IEnumerable<T> FindAll();
+        OperationStatus Create(T entity);
+        OperationStatus Update(T entity);
+        OperationStatus Delete(T entity);
     }
 }

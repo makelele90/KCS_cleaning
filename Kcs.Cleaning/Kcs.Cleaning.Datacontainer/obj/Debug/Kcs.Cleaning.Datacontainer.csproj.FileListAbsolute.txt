@@ -1,0 +1,4 @@
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.pdb

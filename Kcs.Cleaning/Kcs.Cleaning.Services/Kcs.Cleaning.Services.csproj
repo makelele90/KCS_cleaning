@@ -11,6 +11,7 @@
     <AssemblyName>Kcs.Cleaning.Services</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -39,8 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Classes\AuthenticationService.cs" />
+    <Compile Include="Interfaces\IAuthenticationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kcs.Cleaning.DAL\Kcs.Cleaning.DAL.csproj">
+      <Project>{baee9853-b440-43ff-a51a-fdadb4f96882}</Project>
+      <Name>Kcs.Cleaning.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kcs.Cleaning.Datacontainer\Kcs.Cleaning.Datacontainer.csproj">
+      <Project>{a15ca51e-f348-44a8-b439-793fb23e007f}</Project>
+      <Name>Kcs.Cleaning.Datacontainer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kcs.Cleaning.Utility\Kcs.Cleaning.Utility.csproj">
+      <Project>{d43bd701-4552-42e5-ae2e-80564cac3195}</Project>
+      <Name>Kcs.Cleaning.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

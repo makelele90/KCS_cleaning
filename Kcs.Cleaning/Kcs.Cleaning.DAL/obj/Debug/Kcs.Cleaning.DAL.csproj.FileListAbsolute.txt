@@ -1,0 +1,12 @@
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.dll.config
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.pdb
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.xml
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.csprojResolveAssemblyReference.cache
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.dll
+C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.pdb

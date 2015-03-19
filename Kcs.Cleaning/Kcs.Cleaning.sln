@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.Repository", "Kcs.Cleaning.DAL\Kcs.Cleaning.Repository.csproj", "{BAEE9853-B440-43FF-A51A-FDADB4F96882}"
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.DAL", "Kcs.Cleaning.DAL\Kcs.Cleaning.DAL.csproj", "{BAEE9853-B440-43FF-A51A-FDADB4F96882}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.Services", "Kcs.Cleaning.Services\Kcs.Cleaning.Services.csproj", "{1F51315E-C66B-4BE2-B56A-D179991E2066}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.UI", "Kcs.Cleaning.UI\Kcs.Cleaning.UI.csproj", "{AF741DAA-7B14-4308-B854-BD6EB5E6A038}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.UI.Tests", "Kcs.Cleaning.UI.Tests\Kcs.Cleaning.UI.Tests.csproj", "{BD796D86-D9E2-4022-AC61-8E4B86DCCD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.Datacontainer", "Kcs.Cleaning.Datacontainer\Kcs.Cleaning.Datacontainer.csproj", "{A15CA51E-F348-44A8-B439-793FB23E007F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kcs.Cleaning.Utility", "Kcs.Cleaning.Utility\Kcs.Cleaning.Utility.csproj", "{D43BD701-4552-42E5-AE2E-80564CAC3195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{BD796D86-D9E2-4022-AC61-8E4B86DCCD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD796D86-D9E2-4022-AC61-8E4B86DCCD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD796D86-D9E2-4022-AC61-8E4B86DCCD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15CA51E-F348-44A8-B439-793FB23E007F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15CA51E-F348-44A8-B439-793FB23E007F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15CA51E-F348-44A8-B439-793FB23E007F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15CA51E-F348-44A8-B439-793FB23E007F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43BD701-4552-42E5-AE2E-80564CAC3195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43BD701-4552-42E5-AE2E-80564CAC3195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43BD701-4552-42E5-AE2E-80564CAC3195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43BD701-4552-42E5-AE2E-80564CAC3195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

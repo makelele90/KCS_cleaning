@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using Kcs.Cleaning.DAL.Entities;
+using Kcs.Cleaning.Datacontainer.Entities;
 
 namespace Kcs.Cleaning.DAL
 {

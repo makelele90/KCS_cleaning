@@ -1,4 +1,4 @@
-﻿using Kcs.Cleaning.DAL.Entities;
+﻿using Kcs.Cleaning.Datacontainer.Entities;
 
 namespace Kcs.Cleaning.DAL.Repository
 {
