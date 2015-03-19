@@ -10,8 +10,8 @@ namespace Kcs.Cleaning.DAL
         public KcsContext()
             : base("KcsConnectionString")
         {
-            /* Database.SetInitializer<KcsContext>(new BlogDbInitializer());
-           Database.SetInitializer(new MigrateDatabaseToLatestVersion<KcsContext, Configuration>("KcsConnectionString"));*/
+          
+           /* Database.SetInitializer(new MigrateDatabaseToLatestVersion<KcsContext, Configuration>("KcsConnectionString"));*/
             Database.SetInitializer<KcsContext>(null);
 
         }
