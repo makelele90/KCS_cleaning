@@ -4,9 +4,8 @@ namespace Kcs.Cleaning.DAL.Entities
 
     public class Role
     {
-        public int RoleId { get; set; }
-        public string Description { get; set; }
-        public int UserID { get; set; }
+        public virtual int RoleId { get; set; }
+        public virtual string Description { get; set; }
     }
 
 }

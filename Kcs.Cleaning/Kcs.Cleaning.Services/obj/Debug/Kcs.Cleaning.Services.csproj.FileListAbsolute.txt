@@ -7,3 +7,7 @@ C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleani
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.pdb
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.dll
 C:\Projects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.pdb
+C:\dev\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.dll
+C:\dev\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.pdb
+C:\dev\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.dll
+C:\dev\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.pdb

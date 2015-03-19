@@ -13,7 +13,7 @@ namespace Kcs.Cleaning.DAL.Entities
         public virtual DateTime LastLogin { get; set; }
         public virtual bool IsActive { get; set; }
         public virtual bool IsPaswordLocked { get; set; }
-        public Profile Profile { get; set; }
+        public virtual Profile Profile { get; set; }
     }
 
 }
