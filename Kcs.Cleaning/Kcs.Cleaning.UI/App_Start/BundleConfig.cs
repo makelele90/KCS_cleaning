@@ -8,8 +8,11 @@ namespace Kcs.Cleaning.UI
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+            bundles.Add(new ScriptBundle("~/bundles/main").Include(
+                      "~/Scripts/jquery-{version}.js",
+                      "~/Scripts/knockout-3.3.0.js",
+                      "~/Scripts/custom/KcsApp.js",
+                      "~/Scripts/custom/viewModel/userViewModel.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));

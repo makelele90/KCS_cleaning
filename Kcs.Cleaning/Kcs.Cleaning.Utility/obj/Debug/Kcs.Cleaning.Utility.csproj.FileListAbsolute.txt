@@ -2,3 +2,7 @@ C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleanin
 C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleaning.Utility.pdb
 C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.dll
 C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.pdb
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleaning.Utility.dll
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleaning.Utility.pdb
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.dll
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.pdb

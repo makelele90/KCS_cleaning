@@ -5,10 +5,10 @@ namespace Kcs.Cleaning.Datacontainer.Entities
 
     public class Request
     {
-        public int RequestId { get; set; }
-        public DateTime RequestDate { get; set; }
-        public int UserId { get; set; }
-        public int ServiceId { get; set; }
+        public virtual int Id { get; set; }
+        public virtual DateTime RequestDate { get; set; }
+        public virtual Service Service { get; set; }
+        public virtual User User { get; set; }
 
     }
         

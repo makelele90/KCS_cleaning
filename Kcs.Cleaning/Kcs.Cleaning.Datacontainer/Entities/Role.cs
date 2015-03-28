@@ -1,10 +1,16 @@
-﻿namespace Kcs.Cleaning.Datacontainer.Entities
+﻿using System.Collections.Generic;
+namespace Kcs.Cleaning.Datacontainer.Entities
 {
 
     public class Role
     {
-        public virtual int RoleId { get; set; }
+        public Role()
+        {
+            Users = new List<User>();
+        }
+        public virtual int Id { get; set; }
         public virtual string Description { get; set; }
+        public virtual ICollection<User> Users { get; set; }
     }
 
 }

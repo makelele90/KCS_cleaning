@@ -2,3 +2,12 @@ C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.C
 C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.Cleaning.Datacontainer.pdb
 C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.dll
 C:\dev\Play\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\Kcs.Cleaning.Datacontainer.dll.config
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\EntityFramework.dll
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\EntityFramework.SqlServer.dll
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\EntityFramework.xml
+C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\EntityFramework.SqlServer.xml

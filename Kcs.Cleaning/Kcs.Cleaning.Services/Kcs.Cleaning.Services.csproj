@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\AuthenticationService.cs" />
-    <Compile Include="Interfaces\IAuthenticationService.cs" />
+    <Compile Include="Classes\UserService.cs" />
+    <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

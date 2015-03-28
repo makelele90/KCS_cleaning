@@ -3,7 +3,7 @@
 
     public class Service
     {
-        public virtual int ServiceId { get; set; }
+        public virtual int Id { get; set; }
         public virtual string Description { get; set; }
     }
 
