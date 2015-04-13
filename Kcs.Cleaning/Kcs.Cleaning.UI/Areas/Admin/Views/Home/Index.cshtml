@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Admin | Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome to the admin panel</h2>
+
+<section id="loginWrapper" ng-controller="AuthenticationController" class="row">
+    <div class="col-sm-4">
+        <div class=".form-group">
+            <p>
+                <label>User Name:</label> <input class="form-control" type="text" ng-model="UserName" placeholder="Enter username" />
+            </p>
+            <p>
+                <label>Password:</label> <input type="password" class="form-control" ng-model="Password" placeholder="Enter password" />
+            </p>
+
+            <p>
+                <input type="button" value="Login" class="btn btn-default" ng-click="logIn()" />
+            </p>
+        </div>
+
+
+        <div ng-show="loginSuccess">
+            you have successfully login
+        </div>
+    </div>
+
+</section>

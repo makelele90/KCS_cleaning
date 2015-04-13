@@ -37,3 +37,16 @@ C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\En
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.csprojResolveAssemblyReference.cache
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.dll
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Services.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.DAL.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Utility.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\EntityFramework.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.DAL.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\Kcs.Cleaning.Utility.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\bin\Debug\EntityFramework.xml
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.csprojResolveAssemblyReference.cache
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Services\obj\Debug\Kcs.Cleaning.Services.pdb

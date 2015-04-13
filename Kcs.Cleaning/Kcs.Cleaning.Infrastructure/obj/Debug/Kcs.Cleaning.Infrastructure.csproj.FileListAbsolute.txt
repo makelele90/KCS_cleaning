@@ -1,0 +1,5 @@
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Infrastructure\bin\Debug\Kcs.Cleaning.Infrastructure.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Infrastructure\bin\Debug\Kcs.Cleaning.Infrastructure.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Infrastructure\obj\Debug\Kcs.Cleaning.Infrastructure.csprojResolveAssemblyReference.cache
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Infrastructure\obj\Debug\Kcs.Cleaning.Infrastructure.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Infrastructure\obj\Debug\Kcs.Cleaning.Infrastructure.pdb

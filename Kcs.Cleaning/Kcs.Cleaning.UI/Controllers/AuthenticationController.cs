@@ -5,21 +5,34 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Kcs.Cleaning.DAL.Repository;
+using Kcs.Cleaning.Services.Classes;
+using Kcs.Cleaning.Services.Interfaces;
 
 namespace Kcs.Cleaning.UI.Controllers
 {
     public class AuthenticationController : ApiController
     {
-        [HttpPost]
-        public HttpResponseMessage LogIn(UserModel value)
+        private readonly IUserService _userService;
+        public AuthenticationController()
         {
-            var response = new HttpResponseMessage();
-            response.StatusCode = HttpStatusCode.OK;
-            response.Content = new StringContent("ok");
+            _userService=new UserService(new UserRepository());
+        }
+        [HttpPost]
+        public HttpResponseMessage LogIn(UserModel user)
+        {
+            HttpResponseMessage response = null;
+            var result = _userService.Login(user.UserName, user.Password);
 
+            if(result)
+                response = new HttpResponseMessage() {StatusCode = HttpStatusCode.OK, Content = new StringContent("ok")};
+            else
+            {
+                response = new HttpResponseMessage() { StatusCode = HttpStatusCode.OK, Content = new StringContent("") };
+            }
 
             return response;
         }
-
+        
     }
 }

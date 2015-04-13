@@ -1,7 +1,5 @@
-﻿/// <reference path="../knockout-3.3.0.debug.js" />
+﻿/// <reference path="../angular.js" />
 
-
-$(function () {
-
-    ko.applyBindings(new userViewModel());
-})
+(function () {
+    window.kcsApp = angular.module("kcs", []);
+})();

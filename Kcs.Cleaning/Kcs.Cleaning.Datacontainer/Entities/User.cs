@@ -6,11 +6,7 @@ namespace Kcs.Cleaning.Datacontainer.Entities
 
     public class User
     {
-        public User()
-        {
-            Requests = new List<Request>();
-            Roles = new List<Role>();
-        }
+        
         public virtual int UserId { get; set; }
         public virtual string Username { get; set; }
         public virtual string Password { get; set; }

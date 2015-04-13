@@ -10,10 +10,12 @@ namespace Kcs.Cleaning.UI
         {
             bundles.Add(new ScriptBundle("~/bundles/main").Include(
                       "~/Scripts/jquery-{version}.js",
-                      "~/Scripts/knockout-3.3.0.js",
-                      "~/Scripts/custom/KcsApp.js",
-                      "~/Scripts/custom/viewModel/userViewModel.js"));
+                      "~/Scripts/angular.js",
+                      "~/Scripts/custom/KcsApp.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/controllers").Include(
+                      "~/Scripts/custom/controller/AuthenticationController.js"));
+            
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
 
@@ -26,21 +28,8 @@ namespace Kcs.Cleaning.UI
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/bootstrap/css/bootstrap.css"));
 
-            bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
-                        "~/Content/themes/base/jquery.ui.core.css",
-                        "~/Content/themes/base/jquery.ui.resizable.css",
-                        "~/Content/themes/base/jquery.ui.selectable.css",
-                        "~/Content/themes/base/jquery.ui.accordion.css",
-                        "~/Content/themes/base/jquery.ui.autocomplete.css",
-                        "~/Content/themes/base/jquery.ui.button.css",
-                        "~/Content/themes/base/jquery.ui.dialog.css",
-                        "~/Content/themes/base/jquery.ui.slider.css",
-                        "~/Content/themes/base/jquery.ui.tabs.css",
-                        "~/Content/themes/base/jquery.ui.datepicker.css",
-                        "~/Content/themes/base/jquery.ui.progressbar.css",
-                        "~/Content/themes/base/jquery.ui.theme.css"));
         }
     }
 }

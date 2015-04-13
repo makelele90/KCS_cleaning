@@ -6,3 +6,8 @@ C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleaning.Utility.pdb
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.dll
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleaning.Utility.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\bin\Debug\Kcs.Cleaning.Utility.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Utility\obj\Debug\Kcs.Cleaning.Utility.csprojResolveAssemblyReference.cache

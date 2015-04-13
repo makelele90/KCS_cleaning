@@ -24,3 +24,17 @@ C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cle
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.pdb
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.Migrations.seeding.resources
 C:\personalProjects\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.csproj.GenerateResource.Cache
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.dll.config
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.DAL.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.Datacontainer.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.xml
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\bin\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.csprojResolveAssemblyReference.cache
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.Migrations.seeding.resources
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.csproj.GenerateResource.Cache
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.dll
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.DAL\obj\Debug\Kcs.Cleaning.DAL.pdb
