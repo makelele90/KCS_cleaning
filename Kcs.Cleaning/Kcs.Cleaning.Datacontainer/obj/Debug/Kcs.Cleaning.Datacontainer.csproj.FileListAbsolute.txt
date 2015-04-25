@@ -20,3 +20,4 @@ C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\EntityFramewor
 C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\bin\Debug\EntityFramework.SqlServer.xml
 C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.dll
 C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.pdb
+C:\KCS_cleaning\Kcs.Cleaning\Kcs.Cleaning.Datacontainer\obj\Debug\Kcs.Cleaning.Datacontainer.csprojResolveAssemblyReference.cache

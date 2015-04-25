@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO\OperationStatus.cs" />
+    <Compile Include="DTO\UserDto.cs" />
     <Compile Include="Entities\Profile.cs" />
     <Compile Include="Entities\Request.cs" />
     <Compile Include="Entities\Role.cs" />

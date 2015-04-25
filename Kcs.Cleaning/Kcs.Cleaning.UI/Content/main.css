@@ -1,0 +1,8 @@
+﻿.title {
+    border: 1px solid grey;
+    min-height: 300px;
+    padding: 20px 10px;
+}
+.row {
+    margin: 10px 0;
+}

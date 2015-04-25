@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Kcs.Cleaning.Datacontainer.DTO;
 using Kcs.Cleaning.Datacontainer.Entities;
 using Kcs.Cleaning.DAL.Repository;
 using Kcs.Cleaning.Services.Interfaces;
@@ -48,24 +50,38 @@ namespace Kcs.Cleaning.Services.Classes
       return _userRepository.Single(u => u.UserId == id);
     }
 
-    public bool CreateUser(User user)
+    public bool CreateUser(UserDto user)
     {
       var passwordSalt = PasswordHash.GenerateHexSaltString();
       var hashedPassword = PasswordHash.CreateHash(user.Password, passwordSalt);
 
-      user.PasswordSalt = passwordSalt;
-      user.Password = hashedPassword;
+        var userToStore = new User()
+        {
+            Username = user.UserName,
+            Password = hashedPassword,
+            PasswordSalt = passwordSalt,
+            CreatedOn = DateTime.UtcNow,
+            UpadtedOn = DateTime.UtcNow,
+            Profile = new Profile
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName
+            }
+        };
 
-      var result = _userRepository.Create(user);
+
+        var result = _userRepository.Create(userToStore);
 
       return result.Status;
     }
 
-    public bool UpdateUser(User user)
+    public bool UpdateUser(UserDto user)
     {
-      var result = _userRepository.Update(user);
 
-      return result.Status;
+      //var result = _userRepository.Update(user);
+
+      //return result.Status;
+        return false;
     }
 
     public bool RemoveUser(int id)

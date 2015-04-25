@@ -2,28 +2,49 @@
     ViewBag.Title = "Dashboard";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<section id="dashboard" ng-controller="AuthenticationController">
+<section id="dashboard">
 
     <div>
-        <div class="col-sm-12">
-            <div class="col-sm-6">List of lastest 10 request refreshed every 1 minutes</div>
-            <div class="col-sm-6">List of lastest 10 request refreshed every 1 minutes</div>   
+        <div class="col-sm-12 row">
+            <div class="col-sm-4 title">List of lastest 10 request refreshed every 1 minutes</div>
+            <div class="col-sm-4 title">List of lastest 10 request refreshed every 1 minutes</div>
+            <div class="col-sm-4 title">List of lastest 10 request refreshed every 1 minutes</div>
         </div>
-        <div class="col-sm-12">
-            <div class="col-sm-6">List of lastest 10 request refreshed every 1 minutes</div>
-            <div class="col-sm-6">List of lastest 10 request refreshed every 1 minutes</div>
-        </div>
-        <div class="col-sm-12">
-            <div class="col-sm-6">
+        <div class="col-sm-12 row" ng-controller="UserController">
+            <div class="col-sm-4 title">
                 <div class=".form-group">
-                    <div class="col-sm-12">
-                        <div class="col-sm-6"><input class="form-control" type="text" ng-model="UserName" placeholder="Enter username"/>
+                    <div class="col-sm-8 row">
+                        <div class="col-sm-6">
+                            <input class="form-control" type="text" ng-model="User.FisrtName" placeholder="First name" />
                         </div>
-                        <div class="col-sm-6"><input class="form-control" type="text" ng-model="UserName" placeholder="Enter username" /></div>
+                        <div class="col-sm-6">
+                            <input class="form-control" type="text" ng-model="User.LastName" placeholder="Last name" />
+                        </div>
+                    </div>
+                    <div class="col-sm-8 row">
+                        <input class="form-control" type="text" ng-model="User.UserName" placeholder="User name" />
+                    </div>
+                    <div class="col-sm-8 row">
+                        <input class="form-control" type="text" ng-model="User.Telephone" placeholder="Telephone number" />
+                    </div>
+                    <div class="col-sm-8 row">
+                        <input class="form-control" type="text" ng-model="User.Email" placeholder="Email" />
+                    </div>
+                    <div class="col-sm-8 row">
+                        <input class="form-control" type="password" ng-model="User.Password" placeholder="Password" />
+                    </div>
+                    <div class="col-sm-8 row">
+                        <input class="form-control" type="password" ng-model="User.ConfirmPassword" placeholder="Confirm password" />
+                    </div>
+                    <div class="col-sm-8 row">
+                        <input class="btn btn-default" type="button" value="Register" ng-click="register()" />
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">List of lastest 10 request refreshed every 1 minutes</div>
+            <div class="col-sm-4 title">List of lastest 10 request refreshed every 1 minutes</div>
+            <div class="col-sm-4 title" >
+                <p ng-repeat="user in LockedUsers">{{user.UserName}}||{{user.FirstName}} {{user.LastName}}||{{user.CreatedOn}}</p>
+            </div>
         </div>
-    </div>   
+    </div>
 </section>

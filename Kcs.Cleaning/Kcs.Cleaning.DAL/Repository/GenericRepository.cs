@@ -27,7 +27,7 @@ namespace Kcs.Cleaning.DAL.Repository
         }
         public T Single(Expression<Func<T, bool>> predicate)
         {
-            return UnitOfWork.Set<T>().SingleOrDefault(predicate);
+            return UnitOfWork.Set<T>().FirstOrDefault(predicate);
         }
         public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
         {

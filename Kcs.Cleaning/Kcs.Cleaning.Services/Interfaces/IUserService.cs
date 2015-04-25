@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Kcs.Cleaning.Datacontainer.DTO;
 using Kcs.Cleaning.Datacontainer.Entities;
 
 namespace Kcs.Cleaning.Services.Interfaces
@@ -9,8 +10,8 @@ namespace Kcs.Cleaning.Services.Interfaces
         IEnumerable<User> FindAll();
         User Find(string username);
         User GetSingle(int id);
-        bool CreateUser(User userData);
-        bool UpdateUser(User userData);
+        bool CreateUser(UserDto userData);
+        bool UpdateUser(UserDto userData);
         bool RemoveUser(int id);
 
     }

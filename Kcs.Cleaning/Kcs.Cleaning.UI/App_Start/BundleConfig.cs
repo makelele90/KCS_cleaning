@@ -14,7 +14,7 @@ namespace Kcs.Cleaning.UI
                       "~/Scripts/custom/KcsApp.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/controllers").Include(
-                      "~/Scripts/custom/controller/AuthenticationController.js"));
+                      "~/Scripts/custom/controller/UserController.js"));
             
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
@@ -28,7 +28,9 @@ namespace Kcs.Cleaning.UI
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/bootstrap/css/bootstrap.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/bootstrap/css/bootstrap.css",
+               "~/Content/bootstrap/css/bootstrapOverride.css",
+               "~/Content/main.css"));
 
         }
     }

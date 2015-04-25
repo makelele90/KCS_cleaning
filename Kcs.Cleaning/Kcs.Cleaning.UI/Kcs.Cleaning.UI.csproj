@@ -146,9 +146,10 @@
     <Content Include="Content\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap\css\bootstrap.css" />
     <Content Include="Content\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrapOverride.css" />
     <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\main.css" />
     <Content Include="Content\bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap\css\bootstrap.css.map" />
     <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
@@ -162,7 +163,7 @@
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\Custom\controller\AuthenticationController.js" />
+    <Content Include="Scripts\Custom\controller\UserController.js" />
     <Content Include="Scripts\Custom\KcsApp.js" />
     <Content Include="Scripts\jquery-2.1.3.js" />
     <Content Include="Scripts\knockout-3.3.0.debug.js" />

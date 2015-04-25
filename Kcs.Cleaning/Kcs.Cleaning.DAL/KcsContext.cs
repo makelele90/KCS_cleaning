@@ -16,6 +16,8 @@ namespace Kcs.Cleaning.DAL
             //This is used to migrate the database to the latest version
             //Database.SetInitializer<KcsContext>(new MigrateDatabaseToLatestVersion());
             Database.SetInitializer<KcsContext>(null);
+            Configuration.LazyLoadingEnabled = true;
+
 
         }
 

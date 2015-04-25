@@ -5,18 +5,20 @@
 
 <h2>Welcome to the admin panel</h2>
 
-<section id="loginWrapper" ng-controller="AuthenticationController" class="row">
+<section id="loginWrapper" ng-controller="UserController" class="row">
     <div class="col-sm-4">
         <div class=".form-group">
             <p>
-                <label>User Name:</label> <input class="form-control" type="text" ng-model="UserName" placeholder="Enter username" />
+                <label>User Name:</label> <input class="form-control" type="text" ng-model="User.UserName" placeholder="Enter username" />
             </p>
             <p>
-                <label>Password:</label> <input type="password" class="form-control" ng-model="Password" placeholder="Enter password" />
+                <label>Password:</label> <input type="password" class="form-control" ng-model="User.Password" placeholder="Enter password" />
             </p>
 
             <p>
-                <input type="button" value="Login" class="btn btn-default" ng-click="logIn()" />
+                <input type="button" value="Login" class="btn btn-default" ng-click="logIn()"/>
+
+                <input type="checkbox" value="unlock" ng-click="logIn()" />
             </p>
         </div>
 
